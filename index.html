@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<title>Mindy</title>
+	<meta charset="utf-8" />
+
+	<!-- JQuery -->
+	<script src="lib/jquery/jquery-1.9.1.min.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Raphael -->
+	<script src="lib/raphael-min.js"></script>
+
+	<link rel="stylesheet" href="css/style.css" />
+
+	<script src="js/connections.js"></script>
+	<script src="js/mvc.js"></script>
+
+	 <script>
+
+
+	 </script>
+</head>
+<body>
+	<h1>MINDY - концептуальные карты онлайн</h1>
+	<div id="buttons" class="btn-group">
+		<button class="btn" id="add">Новое понятие</button>
+		<button class="btn" disabled="disabled" id="remove">Удалить понятие</button>
+		<button class="btn" disabled="disabled" id="add_conn">Добавить связь</button>
+		<button class="btn" disabled="disabled" id="remove_conn">Удалить связь</button>
+		<button class="btn" disabled="disabled" id="cancel_conn">Отмена</button>
+		<button class="btn" id="save_map">Сохранить</button>
+		<button class="btn" id="quit">Выход</button>
+	</div>
+	<div class="input_field">
+		<input id="input_concept_name" type="text" class="span2" />
+		<button id="change_concept" disabled="disabled" class="btn">Изменить название</button>
+	</div>
+
+
+
+	<div id="workarea"></div>
+</body>
+</html>

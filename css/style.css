@@ -1,0 +1,29 @@
+h1 {
+	text-align: center;
+	margin: 20px;
+}
+
+body {
+	background: #eee
+}
+
+#workarea {
+	background: #fff;
+	border: 1px solid gray;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+}
+
+#buttons {
+	float: left;
+}
+
+.input_field {
+	margin: 10px;
+}
+.input_field input{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
